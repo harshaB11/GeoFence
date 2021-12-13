@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AssetTracking</string>
+    <string name="login_screen">Login</string>
+    <string name="request_location_permission">Permission to use location data required</string>
+    <string name="tracker_name">vuedataMap</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="notifications_admin_channel_name">com.peazyapp.peazy.channel1</string>
+    <string name="notifications_admin_channel_description">peazydescription</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="verify">Verify User</string>
+    <string name="registration">Registration</string>
+    <string name="map">Location Tracker</string>
+    <string name="deleteandTrack"><![CDATA[Delete & Track Specific Device]]></string>
+</resources>

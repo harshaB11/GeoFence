@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="identityPoolId">us-east-1:a3608699-a57c-4fed-8bd2-f35d718a9a07</string>
+    <string name="mapName">Vuedata</string>
+    <string name="awsRegion">us-east-1</string>
+    <string name="awsPlaceIndex">VuedataIndex</string>
+    <string name="awstracker">vuedataTracker</string>
+    <string name="awsgeofence">VuedataGeofence</string>
+</resources>

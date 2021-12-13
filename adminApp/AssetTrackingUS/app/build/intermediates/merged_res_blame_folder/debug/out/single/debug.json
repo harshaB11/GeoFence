@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_activity_delete_device_id.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/activity_delete_device_id.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_activity_admin.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/activity_admin.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_activity_confirm_sign_in.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/activity_confirm_sign_in.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_ic_round_close_24.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/ic_round_close_24.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_rounded_button_default.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/rounded_button_default.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_custom_marker.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/custom_marker.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_ic_car.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/ic_car.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_dust_bin.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/dust_bin.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_stop_car.png.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/stop_car.png"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_activity_list_of_device.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/activity_list_of_device.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_activity_registration.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/activity_registration.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_searchshape.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/searchshape.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_sart_tracking.png.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/sart_tracking.png"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/raw_amplifyconfiguration.json.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/raw/amplifyconfiguration.json"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_deviceid_item.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/deviceid_item.xml"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/raw_awsconfiguration.json.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/raw/awsconfiguration.json"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/drawable_mapbox_marker_blue.png.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/drawable/mapbox_marker_blue.png"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/merged_res/debug/layout_activity_track_single_device.xml.flat",
+        "source": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/src/main/res/layout/activity_track_single_device.xml"
+    }
+]

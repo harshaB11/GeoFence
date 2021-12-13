@@ -1,0 +1,48 @@
+com/vuedata/assettracking/databinding/ActivityLoginBinding.java
+ com.vuedata.assettracking.databinding.ActivityLoginBinding
+com/vuedata/assettracking/databinding/ActivityRegistrationBindingImpl.java
+ com.vuedata.assettracking.databinding.ActivityRegistrationBindingImpl
+com/vuedata/assettracking/databinding/ActivityLoginBindingImpl.java
+ com.vuedata.assettracking.databinding.ActivityLoginBindingImpl
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/vuedata/assettracking/databinding/CustomMarkerBinding.java
+ com.vuedata.assettracking.databinding.CustomMarkerBinding
+com/vuedata/assettracking/databinding/ActivityAdminBinding.java
+ com.vuedata.assettracking.databinding.ActivityAdminBinding
+com/vuedata/assettracking/databinding/DeviceidItemBinding.java
+ com.vuedata.assettracking.databinding.DeviceidItemBinding
+com/vuedata/assettracking/DataBindingTriggerClass.java
+ com.vuedata.assettracking.DataBindingTriggerClass
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/vuedata/assettracking/databinding/ActivityAdminBindingImpl.java
+ com.vuedata.assettracking.databinding.ActivityAdminBindingImpl
+com/vuedata/assettracking/BR.java
+ com.vuedata.assettracking.BR
+com/vuedata/assettracking/BuildConfig.java
+ com.vuedata.assettracking.BuildConfig
+com/vuedata/assettracking/databinding/ActivityListOfDeviceBindingImpl.java
+ com.vuedata.assettracking.databinding.ActivityListOfDeviceBindingImpl
+com/vuedata/assettracking/DataBinderMapperImpl.java
+ com.vuedata.assettracking.DataBinderMapperImpl
+ com.vuedata.assettracking.DataBinderMapperImpl$InnerBrLookup
+ com.vuedata.assettracking.DataBinderMapperImpl$InnerLayoutIdLookup
+com/vuedata/assettracking/databinding/ActivityDeleteDeviceIdBindingImpl.java
+ com.vuedata.assettracking.databinding.ActivityDeleteDeviceIdBindingImpl
+com/vuedata/assettracking/databinding/ActivityConfirmSignInBinding.java
+ com.vuedata.assettracking.databinding.ActivityConfirmSignInBinding
+com/vuedata/assettracking/databinding/ActivityTrackSingleDeviceBindingImpl.java
+ com.vuedata.assettracking.databinding.ActivityTrackSingleDeviceBindingImpl
+com/vuedata/assettracking/databinding/ActivityConfirmSignInBindingImpl.java
+ com.vuedata.assettracking.databinding.ActivityConfirmSignInBindingImpl
+com/vuedata/assettracking/databinding/ActivityTrackSingleDeviceBinding.java
+ com.vuedata.assettracking.databinding.ActivityTrackSingleDeviceBinding
+com/vuedata/assettracking/databinding/ActivityListOfDeviceBinding.java
+ com.vuedata.assettracking.databinding.ActivityListOfDeviceBinding
+com/vuedata/assettracking/databinding/ActivityRegistrationBinding.java
+ com.vuedata.assettracking.databinding.ActivityRegistrationBinding
+com/vuedata/assettracking/databinding/ActivityDeleteDeviceIdBinding.java
+ com.vuedata.assettracking.databinding.ActivityDeleteDeviceIdBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

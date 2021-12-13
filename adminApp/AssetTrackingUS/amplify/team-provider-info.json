@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-assettrakerus-dev-134538-authRole",
+      "UnauthRoleArn": "arn:aws:iam::807362644853:role/amplify-assettrakerus-dev-134538-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::807362644853:role/amplify-assettrakerus-dev-134538-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-assettrakerus-dev-134538-deployment",
+      "UnauthRoleName": "amplify-assettrakerus-dev-134538-unauthRole",
+      "StackName": "amplify-assettrakerus-dev-134538",
+      "StackId": "arn:aws:cloudformation:us-east-1:807362644853:stack/amplify-assettrakerus-dev-134538/0c275de0-5348-11ec-9bc0-0e4f08beb771",
+      "AmplifyAppId": "d3oip3jp7l7ryo",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-assettrakerus-dev-134538-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "assettrakerus4abdf61f": {},
+        "userPoolGroups": {},
+        "true": {}
+      },
+      "function": {
+        "assettrakerus4abdf61fPostConfirmation": {
+          "GROUP": "AssetTracker",
+          "deploymentBucketName": "amplify-assettrakerus-dev-134538-deployment",
+          "s3Key": "amplify-builds/assettrakerus4abdf61fPostConfirmation-56615a3930312b38476a-build.zip"
+        }
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "AssetTrakerUSYbtu9-dev",
+          "Id": "49e045aa2df74b89a0c7c9703437ef54",
+          "Region": "us-east-1"
+        }
+      }
+    }
+  }
+}

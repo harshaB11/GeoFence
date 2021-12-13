@@ -1,0 +1,159 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-assettrakerus-dev-134538-authRole",
+      "UnauthRoleArn": "arn:aws:iam::807362644853:role/amplify-assettrakerus-dev-134538-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::807362644853:role/amplify-assettrakerus-dev-134538-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-assettrakerus-dev-134538-deployment",
+      "UnauthRoleName": "amplify-assettrakerus-dev-134538-unauthRole",
+      "StackName": "amplify-assettrakerus-dev-134538",
+      "StackId": "arn:aws:cloudformation:us-east-1:807362644853:stack/amplify-assettrakerus-dev-134538/0c275de0-5348-11ec-9bc0-0e4f08beb771",
+      "AmplifyAppId": "d3oip3jp7l7ryo",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-assettrakerus-dev-134538-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    }
+  },
+  "auth": {
+    "assettrakerus4abdf61f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "assettrakerus4abdf61fPostConfirmation",
+          "triggerProvider": "Cognito",
+          "attributes": [
+            "Arn",
+            "Name"
+          ]
+        }
+      ],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-assettrakerus-dev-134538-deployment/amplify-cfn-templates/auth/assettrakerus4abdf61f-cloudformation-template.json",
+        "logicalId": "authassettrakerus4abdf61f"
+      },
+      "lastPushTimeStamp": "2021-12-08T05:19:34.441Z",
+      "output": {
+        "UserPoolId": "us-east-1_cbQ74JVU7",
+        "AppClientIDWeb": "2q7c3il2fjtubq05199f6n6ljm",
+        "AppClientID": "1fno046jik4cquru99a0ftakjd",
+        "IdentityPoolId": "us-east-1:a3608699-a57c-4fed-8bd2-f35d718a9a07",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:807362644853:userpool/us-east-1_cbQ74JVU7",
+        "IdentityPoolName": "assettrakerus4abdf61f_identitypool_4abdf61f__dev",
+        "UserPoolName": "assettrakerus4abdf61f_userpool_4abdf61f"
+      },
+      "lastPushDirHash": "ObSujTK8eqM5pdceooS4RLKySAw="
+    },
+    "userPoolGroups": {
+      "service": "Cognito-UserPool-Groups",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "assettrakerus4abdf61f",
+          "attributes": [
+            "UserPoolId",
+            "AppClientIDWeb",
+            "AppClientID",
+            "IdentityPoolId"
+          ]
+        }
+      ],
+      "userPoolGroups": {
+        "service": "Cognito-UserPool-Groups",
+        "providerPlugin": "awscloudformation",
+        "dependsOn": [
+          {
+            "category": "auth",
+            "resourceName": "assettrakerus4abdf61f",
+            "attributes": [
+              "UserPoolId",
+              "AppClientIDWeb",
+              "AppClientID",
+              "IdentityPoolId"
+            ]
+          }
+        ]
+      },
+      "lastPushTimeStamp": "2021-12-08T05:19:34.403Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-assettrakerus-dev-134538-deployment/amplify-cfn-templates/auth/userPoolGroups-cloudformation-template.json",
+        "logicalId": "authuserPoolGroups"
+      },
+      "output": {
+        "AssetTrackerGroupRole": "arn:aws:iam::807362644853:role/us-east-1_cbQ74JVU7-AssetTrackerGroupRole"
+      },
+      "lastPushDirHash": "/nuLPjwkE3kU0EbLE4hXnVw51S4="
+    }
+  },
+  "function": {
+    "assettrakerus4abdf61fPostConfirmation": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2021-12-07T06:31:26.564Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2021-12-07T06:31:26.790Z",
+      "distZipFilename": "assettrakerus4abdf61fPostConfirmation-56615a3930312b38476a-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-assettrakerus-dev-134538-deployment",
+        "s3Key": "amplify-builds/assettrakerus4abdf61fPostConfirmation-56615a3930312b38476a-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-assettrakerus-dev-134538-deployment/amplify-cfn-templates/function/assettrakerus4abdf61fPostConfirmation-cloudformation-template.json",
+        "logicalId": "functionassettrakerus4abdf61fPostConfirmation"
+      },
+      "lastPushTimeStamp": "2021-12-08T05:19:34.406Z",
+      "output": {
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:807362644853:function:assettrakerus4abdf61fPostConfirmation-dev",
+        "Name": "assettrakerus4abdf61fPostConfirmation-dev",
+        "LambdaExecutionRole": "assettrakerus4abdf61fPostConfirmation-dev"
+      },
+      "lastPushDirHash": "EmMPJlerNiSIhpC5hBSIwCgzOwc="
+    }
+  },
+  "notifications": {
+    "AssetTrakerUSYbtu9": {
+      "service": "Pinpoint",
+      "output": {
+        "Arn": "arn:aws:mobiletargeting:us-east-1:807362644853:apps/49e045aa2df74b89a0c7c9703437ef54",
+        "Id": "49e045aa2df74b89a0c7c9703437ef54",
+        "Name": "AssetTrakerUSYbtu9-dev",
+        "tags": {},
+        "Region": "us-east-1",
+        "FCM": {
+          "ApplicationId": "49e045aa2df74b89a0c7c9703437ef54",
+          "CreationDate": "2021-12-08T05:16:59.767Z",
+          "Enabled": true,
+          "HasCredential": true,
+          "Id": "gcm",
+          "IsArchived": false,
+          "LastModifiedDate": "2021-12-08T05:16:59.767Z",
+          "Platform": "GCM",
+          "Version": 1
+        }
+      },
+      "lastPushTimeStamp": "2021-12-08T05:15:49.708Z"
+    }
+  }
+}

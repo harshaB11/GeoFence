@@ -1,0 +1,368 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorAccent">@color/secondaryDarkColor</item>
+        <!--  Default Navigation bar color -->
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <!--  Default text style -->
+        <item name="android:textViewStyle">@style/defaultTextStyle</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:listDivider">@color/listDivider</item>
+        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="BaseAppTheme">
+<!--
+        <item name="android:windowBackground">@drawable/background_splash</item>
+-->
+    </style>
+    <style name="inputTheme" parent="BaseAppTheme">
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <!--  Default button style [Causes issues with buttons ]-->
+        <!--        <item name="android:buttonStyle">@style/primaryButton</item>-->
+        <!--  Default background for fragments/activities -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+
+    <style name="MyApp.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- THIS is where you can color the arrow! -->
+        <item name="colorControlNormal">@color/primaryTextColor</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="@style/Theme.AppCompat.DayNight">
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorAccent">@color/secondaryDarkColor</item>
+        <!--  Default Navigation bar color -->
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <!--  Default text style -->
+        <item name="android:textViewStyle">@style/defaultTextStyle</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:listDivider">@color/listDivider</item>
+        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+    </style>
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="DefaultToolbarStyle" parent="AppTheme"></style>
+
+    <style name="Base_ToolbarStyle" parent="AppTheme">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:background">?colorPrimary</item>
+    </style>
+
+    <style name="Base_ToolbarStyle_Transparent" parent="AppTheme">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="compactCheckbox" parent="AppTheme">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <!--    Text Styles     -->
+
+
+    <style name="defaultTextStyle" parent="AppTheme">
+        <item name="color">@color/primaryTextColor</item>
+    </style>
+
+    <style name="secondaryTextStyle" parent="AppTheme">
+        <item name="color">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="HeaderPrimary" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="HeaderPrimary.18">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="HeaderPrimary.16">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="HeaderPrimaryInverse" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+    <style name="HeaderPrimaryInverse.18">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="HeaderPrimaryInverse.16">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="HeaderSecondary" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="SecondaryInverse" parent="AppTheme">
+        <item name="android:textColor">@color/secondaryColor</item>
+    </style>
+
+    <style name="SecondaryInverse.12">
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+    <style name="HeaderSecondary.18">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="HeaderSecondary.22">
+        <item name="android:textSize">@dimen/_22ssp</item>
+    </style>
+
+    <style name="HeaderSecondary.16">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="HeaderSecondaryInverse" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+    </style>
+
+    <style name="HeaderSecondaryInverse.18">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="HeaderSecondaryInverse.16">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="BackgroundText" parent="AppTheme">
+        <item name="android:textColor">@color/backgroundTextColor</item>
+    </style>
+
+    <style name="BackgroundText.12">
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+    <style name="BackgroundText.14">
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="BackgroundText.16">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="BackgroundText.17">
+        <item name="android:textSize">@dimen/_13ssp</item>
+    </style>
+
+    <style name="BackgroundText.20">
+        <item name="android:textSize">@dimen/_15ssp</item>
+    </style>
+
+    <style name="BackgroundText.24">
+        <item name="android:textSize">@dimen/_18ssp</item>
+    </style>
+
+    <style name="BackgroundText.Header">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BackgroundText.Header.18">
+        <item name="android:textSize">@dimen/_13ssp</item>
+    </style>
+
+    <style name="LightBackgroundText" parent="AppTheme">
+        <item name="android:textColor">@color/backgroundTextColorLight</item>
+    </style>
+
+    <style name="LightBackgroundText.12">
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+    <style name="LightBackgroundText.14">
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="SubtitleSecondaryText" parent="AppTheme">
+        <item name="android:textColor">@color/subtitleSecondaryTextColor</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+    <!--        Button Styles       -->
+
+    <style name="filterButton" parent="AppTheme">
+        <item name="backgroundTint">@color/playButtonBg</item>
+        <item name="android:textColor">@color/playButtonFontColor</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+
+    </style>
+
+    <style name="filterButton.CustomMinDimen">
+        <item name="android:minWidth">@dimen/_1sdp</item>
+        <item name="android:minHeight">@dimen/_1sdp</item>
+    </style>
+
+    <style name="primaryButton" parent="AppTheme">
+        <item name="android:background">@color/secondaryColor</item>
+        <item name="android:textColor">@color/primaryButtonTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+
+    </style>
+
+    <style name="primaryButton.CustomMinDimen">
+        <item name="android:minWidth">@dimen/_25sdp</item>
+        <item name="android:minHeight">@dimen/_25sdp</item>
+    </style>
+
+    <style name="primaryButton.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="secondaryButton" parent="AppTheme">
+        <item name="background">@drawable/rounded_button_default</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="secondaryButton.padded">
+        <item name="android:padding">@dimen/_12sdp</item>
+    </style>
+
+    <style name="PlayButtonText" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/playButtonFontColor</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="FilterButtonText" parent="AppTheme">
+        <item name="android:textColor">@color/playButtonFontColor</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+
+    <style name="AddButtonText" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/addButtonFontColor</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BoldAllCapsText" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="BoldAllCapsText.BigSize">
+        <item name="android:textSize">@dimen/_24ssp</item>
+    </style>
+
+    <style name="RoundSoftTransparentStrokedButton" parent="AppTheme">
+        <item name="android:backgroundTint">@color/fullyTransparent</item>
+        <item name="android:textColor">@color/backgroundTextColor</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="strokeWidth">@dimen/_1sdp</item>
+        <item name="strokeColor">@color/backgroundTextColor</item>
+        <item name="cornerRadius">@dimen/_3sdp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="RoundSoftWhiteButton" parent="AppTheme">
+        <item name="android:backgroundTint">@color/backgroundTextColor</item>
+        <item name="android:textColor">@color/backgroundColor</item>
+        <item name="cornerRadius">@dimen/_3sdp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:inset">0dp</item>
+    </style>
+
+    <style name="PrimaryLight" parent="AppTheme">
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+    <style name="PrimaryLight.MaxLines3">
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="PrimaryEditTextStyle" parent="AppTheme">
+        <item name="android:background">@drawable/rounded_button_default</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:padding">@dimen/_6sdp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorHint">@color/primaryLightTextColor</item>
+    </style>
+
+    <style name="appsetting_layout" parent="AppTheme">
+        <item name="android:background">@drawable/rounded_button_default</item>
+        <item name="tint">#222634</item>
+    </style>
+
+    <style name="appsetting_lable" parent="AppTheme">
+        <item name="android:padding">@dimen/_9sdp</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="mylist_lable" parent="AppTheme">
+        <item name="android:paddingStart">@dimen/_6sdp</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="subscription_plan_lable" parent="AppTheme">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+    </style>
+
+    <style name="subscription_lable" parent="AppTheme">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="subscription_promote" parent="AppTheme">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+    </style>
+
+    <style name="InputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="errorTextColor">@color/secondaryColor</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+
+</resources>

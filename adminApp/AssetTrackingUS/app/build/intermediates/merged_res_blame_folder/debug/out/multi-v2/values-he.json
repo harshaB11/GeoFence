@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/harsha/Documents/GeoFence/adminApp/AssetTrackingUS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "/Users/harsha/.gradle/caches/transforms-3/1ab7a2120d4e8522e3b449350a998c0d/transformed/jetified-android-sdk-9.5.1/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,264,380,483,633,747",
+                        "endColumns": "121,86,115,102,149,113,136",
+                        "endOffsets": "172,259,375,478,628,742,879"
+                    }
+                }
+            ]
+        }
+    ]
+}

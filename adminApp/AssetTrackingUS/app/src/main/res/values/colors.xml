@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <color name="primaryColor">#ffa90a</color>-->
+    <!--    <color name="primaryLightColor">#FFF3E0</color>-->
+    <!--    <color name="primaryDarkColor">#c67a00</color>-->
+
+    <!--    <color name="secondaryColor">#212121</color>-->
+    <!--    <color name="secondaryLightColor">#000000</color>-->
+    <!--    <color name="secondaryDarkColor">#000000</color>-->
+
+    <!--    <color name="primaryTextColor">#000000</color>-->
+    <!--    <color name="secondaryTextColor">#ffffff</color>-->
+
+    <!--    <color name="backgroundColor">#FFFFFF</color>-->
+    <!--    <color name="backgroundTextColor">#000000</color>-->
+    <!--    <color name="toolbarBackgroundColor">#000000</color>-->
+
+    <!--    <color name="primaryButtonColor">#FFAB0F</color>-->
+    <!--    <color name="primaryFontColor">#FFFFFF</color>-->
+    <!--    <color name="secondaryFontColor">#CBCBCB</color>-->
+
+    <color name="primaryColor">#131722</color>
+    <color name="primaryLightColor">#363a43</color>
+    <color name="primaryDarkColor">#1b1f2a</color>
+
+    <color name="secondaryColor">#00BCD4</color>
+    <color name="secondaryLightColor">#9BDFE8</color>
+    <color name="secondaryDarkColor">#00BCD4</color>
+
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="backgroundColor">#000000</color>
+    <color name="backgroundTextColor">#ffffff</color>
+    <color name="backgroundTextColorLight">#A3A4A5</color>
+    <color name="toolbarBackgroundColor">#000000</color>
+
+    <color name="primaryButtonColor">#00BCD4</color>
+    <color name="primaryButtonTextColor">#FFFFFF</color>
+    <color name="secondaryFontColor">#CBCBCB</color>
+
+    <color name="filterValueTextColor">#FFFFFF</color>
+    <color name="filterValueTextColorSelected">#FC9E74</color>
+
+    <color name="subtitleSecondaryTextColor">#FC9E74</color>
+
+    <color name="primaryLightTextColor">#949CB0</color>
+
+    <color name="fullyTransparent">#00000000</color>
+    <color name="semiTransparent">#54000000</color>
+
+    <color name="playButtonBg">#FFFFFF</color>
+    <color name="playButtonFontColor">#000000</color>
+
+    <color name="addButtonBg">#5c5957</color>
+    <color name="addButtonFontColor">#ffffff</color>
+
+    <color name="listDivider">#131722</color>
+
+    <color name="successToasterBg">#4AD295</color>
+    <color name="errorToasterBg">#000000</color>
+
+    <color name="accountImagePlaceholderBg">#757D90</color>
+
+    <color name="bt_switch">#2C3142</color>
+    <color name="mylistsubtitle">#A9ACB4</color>
+    <color name="switch_color">#F46F4B</color>
+    <color name="mylistBg">#181A23</color>
+    <color name="app_setting_item">#C2C4C8</color>
+    <color name="app_setting_bg">#222634</color>
+    <color name="white">#FFFFFF</color>
+    <color name="delete_bg">#D11709</color>
+    <color name="subcriptionbillMsg">#7A7C80</color>
+    <color name="mylist_bgplay">#3A3E4A</color>
+
+</resources>
